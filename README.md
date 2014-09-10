@@ -3,12 +3,17 @@ mavericks-dev-setup
 
 Instruction for setting up dev tools for OS X Mavericks
 
-Mavericks development setup
+Mavericks development setup:
+
+Make sure xCode is installed
+
+In terminal:
 
 download/install brew:
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
 
-install xCode
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
+
+
 
 brew update
 
