@@ -26,6 +26,7 @@ download/install brew::
     brew install pyenv
 
 Optional Databases::
+
     brew install mysql
 
         To connect:
@@ -55,6 +56,7 @@ Optional Databases::
             mongod --config /usr/local/etc/mongod.conf
 django::
 ------
+
     mkdir [projectname] && cd [projectname]
     pyvenv env
     source env/bin/activate
