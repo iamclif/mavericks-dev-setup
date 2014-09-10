@@ -1,4 +1,4 @@
-Python/Django development setup for OS X Mavericks:
+Python3/Django development setup for OS X Mavericks:
 ---------------------------------------------------
 
 Make sure xCode is installed
