@@ -54,10 +54,13 @@ Optional Databases::
             launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
         Or, if you don't want/need launchctl, you can just run:
             mongod --config /usr/local/etc/mongod.conf
-django::
+django
 ------
 
+Create a project::
+
     mkdir [projectname] && cd [projectname]
+    
     pyvenv env
     source env/bin/activate
     pip install django
