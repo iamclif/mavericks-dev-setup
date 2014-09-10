@@ -25,7 +25,7 @@ download/install brew::
     
     brew install pyenv
 
-Optional Databases::
+Databases::
 
     brew install mysql
 
