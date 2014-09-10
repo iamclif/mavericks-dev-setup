@@ -31,7 +31,6 @@ Optional Databases::
 
         To connect:
             mysql -uroot
-
         To have launchd start mysql at login::
             ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
         Then to load mysql now::
@@ -40,6 +39,7 @@ Optional Databases::
             mysql.server start
 
     brew install postgresql
+        
         To have launchd start postgresql at login:
             ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
         Then to load postgresql now:
@@ -48,6 +48,7 @@ Optional Databases::
             postgres -D /usr/local/var/postgres
 
     brew install mongodb
+        
         To have launchd start mongodb at login:
             ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
         Then to load mongodb now:
@@ -57,10 +58,9 @@ Optional Databases::
 django
 ------
 
-Create a project::
+Create/start project::
 
     mkdir [projectname] && cd [projectname]
-    
     pyvenv env
     source env/bin/activate
     pip install django
