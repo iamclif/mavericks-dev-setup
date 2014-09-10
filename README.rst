@@ -1,8 +1,5 @@
-Instruction for setting up dev tools for OS X Mavericks
-=======================================================
-
-Mavericks development setup:
-----------------------------
+Python/Django development setup for OS X Mavericks:
+---------------------------------------------------
 
 Make sure xCode is installed
 
