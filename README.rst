@@ -30,14 +30,20 @@ Databases::
 django
 ------
 
-Create/start project::
+Create/start new django project::
 
     mkdir [projectname] && cd [projectname]
+    
     pyvenv env
+    
     source env/bin/activate
+    
     pip install django
+    
     django-admin.py startproject [projectname]
+    
     ./manage.py startapp [appname]
+    
     ./manage.py runserver 0.0.0.0:8000
 
 
